@@ -130,7 +130,6 @@ nav button {
 .accordion {
   margin: 60px auto;
   width: 100%;
-  max-width: 750px;
 }
 .accordion li {
   width: 100%;
@@ -147,4 +146,20 @@ nav button {
   margin-bottom: 2px;
   cursor: pointer;
   position: relative;
+}
+label ::after {
+  content: "+";
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+}
+input[type="radio"] {
+  display: none;
+}
+.accordion .content {
+  background: #303030;
+  text-align: left;
+  padding: 0px 20px;
+  max-height: 0;
+  overflow: hidden;
 }
