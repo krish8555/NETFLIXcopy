@@ -191,15 +191,12 @@ input[type="radio"] {
   max-width: 600px;
   margin: 20px auto 60px;
 }
-
-.email-signup input[type="email"] {
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.5
-  ); /* Set translucent background for input */
+.faq .email-signup input {
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  outline: 0;
 }
 .faq small{
-  font-size: 13px;
+  font-size: 23px;
 }
