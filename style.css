@@ -176,13 +176,25 @@ input[type="radio"] {
   content: "+";
   font-weight: 500;
   font-size: 34px;
-  position: absolute; 
-  right: 35px;  
-  cursor: pointer; 
-  transition: transform 0.3s ease; 
+  position: absolute;
+  right: 35px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 .accordion input[type="radio"]:checked + label::after {
   transform: rotate(135deg);
 }
 
+.email-signup {
+  display: flex; /* Make the form elements display inline-flex */
+  gap: 10px; /* Add a gap of 10 pixels between elements */
+}
 
+.email-signup input[type="email"] {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Set translucent background for input */
+}
